@@ -1,0 +1,6 @@
+# Requirements 
+
+#yfinance==0.2.12
+pandas
+sqlalchemy
+pymysql

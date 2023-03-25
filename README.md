@@ -56,4 +56,8 @@ Browser
 http://localhost:7474
 
 Database
-localhost:7687
+<IP>:7687
+
+Username: neo4j
+Password: neo4j_test
+

@@ -6,6 +6,11 @@ blue=`tput setaf 6`
 reset=`tput sgr0`
 
 #export MBD_WORKSPACE="<LOCAL_FOLDER>"
-#export MBD_WORKSPACE = "/Users/bueka.torao/DevProjects/devprojects_workspace/graphics_db_exercise/"
 
+#export SERVER_IP=""
 
+if [ -z "$SERVER_IP" ]; then
+    # Empty
+    echo "[ERROR] ENV VAR SERVER_IP cannot be empty"
+    exit
+fi

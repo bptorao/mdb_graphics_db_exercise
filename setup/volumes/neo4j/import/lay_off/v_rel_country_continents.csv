@@ -1,0 +1,198 @@
+:START_ID,:END_ID,:TYPE
+Algeria,Africa,CONTINENT
+Angola,Africa,CONTINENT
+Benin,Africa,CONTINENT
+Botswana,Africa,CONTINENT
+Burkina,Africa,CONTINENT
+Burundi,Africa,CONTINENT
+Cameroon,Africa,CONTINENT
+Cape Verde,Africa,CONTINENT
+Central African Republic,Africa,CONTINENT
+Chad,Africa,CONTINENT
+Comoros,Africa,CONTINENT
+Congo,Africa,CONTINENT
+"Congo, Democratic Republic of",Africa,CONTINENT
+Djibouti,Africa,CONTINENT
+Egypt,Africa,CONTINENT
+Equatorial Guinea,Africa,CONTINENT
+Eritrea,Africa,CONTINENT
+Ethiopia,Africa,CONTINENT
+Gabon,Africa,CONTINENT
+Gambia,Africa,CONTINENT
+Ghana,Africa,CONTINENT
+Guinea,Africa,CONTINENT
+Guinea-Bissau,Africa,CONTINENT
+Ivory Coast,Africa,CONTINENT
+Kenya,Africa,CONTINENT
+Lesotho,Africa,CONTINENT
+Liberia,Africa,CONTINENT
+Libya,Africa,CONTINENT
+Madagascar,Africa,CONTINENT
+Malawi,Africa,CONTINENT
+Mali,Africa,CONTINENT
+Mauritania,Africa,CONTINENT
+Mauritius,Africa,CONTINENT
+Morocco,Africa,CONTINENT
+Mozambique,Africa,CONTINENT
+Namibia,Africa,CONTINENT
+Niger,Africa,CONTINENT
+Nigeria,Africa,CONTINENT
+Rwanda,Africa,CONTINENT
+Sao Tome and Principe,Africa,CONTINENT
+Senegal,Africa,CONTINENT
+Seychelles,Africa,CONTINENT
+Sierra Leone,Africa,CONTINENT
+Somalia,Africa,CONTINENT
+South Africa,Africa,CONTINENT
+South Sudan,Africa,CONTINENT
+Sudan,Africa,CONTINENT
+Swaziland,Africa,CONTINENT
+Tanzania,Africa,CONTINENT
+Togo,Africa,CONTINENT
+Tunisia,Africa,CONTINENT
+Uganda,Africa,CONTINENT
+Zambia,Africa,CONTINENT
+Zimbabwe,Africa,CONTINENT
+Afghanistan,Asia,CONTINENT
+Bahrain,Asia,CONTINENT
+Bangladesh,Asia,CONTINENT
+Bhutan,Asia,CONTINENT
+Brunei,Asia,CONTINENT
+Burma (Myanmar),Asia,CONTINENT
+Cambodia,Asia,CONTINENT
+China,Asia,CONTINENT
+East Timor,Asia,CONTINENT
+India,Asia,CONTINENT
+Indonesia,Asia,CONTINENT
+Iran,Asia,CONTINENT
+Iraq,Asia,CONTINENT
+Israel,Asia,CONTINENT
+Japan,Asia,CONTINENT
+Jordan,Asia,CONTINENT
+Kazakhstan,Asia,CONTINENT
+"Korea, North",Asia,CONTINENT
+"Korea, South",Asia,CONTINENT
+Kuwait,Asia,CONTINENT
+Kyrgyzstan,Asia,CONTINENT
+Laos,Asia,CONTINENT
+Lebanon,Asia,CONTINENT
+Malaysia,Asia,CONTINENT
+Maldives,Asia,CONTINENT
+Mongolia,Asia,CONTINENT
+Nepal,Asia,CONTINENT
+Oman,Asia,CONTINENT
+Pakistan,Asia,CONTINENT
+Philippines,Asia,CONTINENT
+Qatar,Asia,CONTINENT
+Russia,Asia,CONTINENT
+Saudi Arabia,Asia,CONTINENT
+Singapore,Asia,CONTINENT
+Sri Lanka,Asia,CONTINENT
+Syria,Asia,CONTINENT
+Tajikistan,Asia,CONTINENT
+Thailand,Asia,CONTINENT
+Turkey,Asia,CONTINENT
+Turkmenistan,Asia,CONTINENT
+United Arab Emirates,Asia,CONTINENT
+Uzbekistan,Asia,CONTINENT
+Vietnam,Asia,CONTINENT
+Yemen,Asia,CONTINENT
+Albania,Europe,CONTINENT
+Andorra,Europe,CONTINENT
+Armenia,Europe,CONTINENT
+Austria,Europe,CONTINENT
+Azerbaijan,Europe,CONTINENT
+Belarus,Europe,CONTINENT
+Belgium,Europe,CONTINENT
+Bosnia and Herzegovina,Europe,CONTINENT
+Bulgaria,Europe,CONTINENT
+Croatia,Europe,CONTINENT
+Cyprus,Europe,CONTINENT
+CZ,Europe,CONTINENT
+Denmark,Europe,CONTINENT
+Estonia,Europe,CONTINENT
+Finland,Europe,CONTINENT
+France,Europe,CONTINENT
+Georgia,Europe,CONTINENT
+Germany,Europe,CONTINENT
+Greece,Europe,CONTINENT
+Hungary,Europe,CONTINENT
+Iceland,Europe,CONTINENT
+Ireland,Europe,CONTINENT
+Italy,Europe,CONTINENT
+Latvia,Europe,CONTINENT
+Liechtenstein,Europe,CONTINENT
+Lithuania,Europe,CONTINENT
+Luxembourg,Europe,CONTINENT
+Macedonia,Europe,CONTINENT
+Malta,Europe,CONTINENT
+Moldova,Europe,CONTINENT
+Monaco,Europe,CONTINENT
+Montenegro,Europe,CONTINENT
+Netherlands,Europe,CONTINENT
+Norway,Europe,CONTINENT
+Poland,Europe,CONTINENT
+Portugal,Europe,CONTINENT
+Romania,Europe,CONTINENT
+San Marino,Europe,CONTINENT
+Serbia,Europe,CONTINENT
+Slovakia,Europe,CONTINENT
+Slovenia,Europe,CONTINENT
+Spain,Europe,CONTINENT
+Sweden,Europe,CONTINENT
+Switzerland,Europe,CONTINENT
+Ukraine,Europe,CONTINENT
+United Kingdom,Europe,CONTINENT
+Vatican City,Europe,CONTINENT
+Antigua and Barbuda,North America,CONTINENT
+Bahamas,North America,CONTINENT
+Barbados,North America,CONTINENT
+Belize,North America,CONTINENT
+Canada,North America,CONTINENT
+Costa Rica,North America,CONTINENT
+Cuba,North America,CONTINENT
+Dominica,North America,CONTINENT
+Dominican Republic,North America,CONTINENT
+El Salvador,North America,CONTINENT
+Grenada,North America,CONTINENT
+Guatemala,North America,CONTINENT
+Haiti,North America,CONTINENT
+Honduras,North America,CONTINENT
+Jamaica,North America,CONTINENT
+Mexico,North America,CONTINENT
+Nicaragua,North America,CONTINENT
+Panama,North America,CONTINENT
+Saint Kitts and Nevis,North America,CONTINENT
+Saint Lucia,North America,CONTINENT
+Saint Vincent and the Grenadines,North America,CONTINENT
+Trinidad and Tobago,North America,CONTINENT
+United States,North America,CONTINENT
+Australia,Oceania,CONTINENT
+Fiji,Oceania,CONTINENT
+Kiribati,Oceania,CONTINENT
+Marshall Islands,Oceania,CONTINENT
+Micronesia,Oceania,CONTINENT
+Nauru,Oceania,CONTINENT
+New Zealand,Oceania,CONTINENT
+Palau,Oceania,CONTINENT
+Papua New Guinea,Oceania,CONTINENT
+Samoa,Oceania,CONTINENT
+Solomon Islands,Oceania,CONTINENT
+Tonga,Oceania,CONTINENT
+Tuvalu,Oceania,CONTINENT
+Vanuatu,Oceania,CONTINENT
+Argentina,South America,CONTINENT
+Bolivia,South America,CONTINENT
+Brazil,South America,CONTINENT
+Chile,South America,CONTINENT
+Colombia,South America,CONTINENT
+Ecuador,South America,CONTINENT
+Guyana,South America,CONTINENT
+Paraguay,South America,CONTINENT
+Peru,South America,CONTINENT
+Suriname,South America,CONTINENT
+Uruguay,South America,CONTINENT
+Venezuela,South America,CONTINENT
+Hong Kong,Asia,CONTINENT
+Hong Kong,Asia,CONTINENT
+Myanmar,Asia,CONTINENT

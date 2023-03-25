@@ -6,7 +6,8 @@ if [ -z "$MBD_WORKSPACE" ]; then
     exit
 fi
 
-source ${MBD_WORKSPACE}/step01_installation/setup_lib/libraries.sh
+source ${MBD_WORKSPACE}/setup/setup_lib/libraries.sh
+
 
 
 echo "${blue}# ############################################## #${reset}"

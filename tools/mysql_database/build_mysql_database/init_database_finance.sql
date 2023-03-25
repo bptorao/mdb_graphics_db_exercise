@@ -1,0 +1,9 @@
+-- SCRIPT DATABASE FINANCE
+
+CREATE USER finance@'%' IDENTIFIED BY 'finance';
+
+CREATE DATABASE finance_db;
+
+GRANT ALL PRIVILEGES ON finance_db.* to finance@'%';
+FLUSH PRIVILEGES;
+

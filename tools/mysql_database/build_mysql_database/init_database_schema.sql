@@ -2,6 +2,8 @@
 
 -- database finance_db
 
+USE finance_db;
+
 CREATE TABLE INDEXES_DATA (
     ID INT NOT NULL AUTO_INCREMENT,
     INDEX_NAME varchar(50),

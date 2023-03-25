@@ -45,8 +45,9 @@ conda_envs="${MBD_WORKSPACE}/setup/volumes/jupyter_config/conda/envs"
 jupyter_config="${MBD_WORKSPACE}/setup/volumes/jupyter_config/jupyter_config"
 jupyter_local="${MBD_WORKSPACE}/setup/volumes/jupyter_config/jupyter_local"
 #-it
-
+echo "${green}Starting Docker $docker_name${reset}"
 docker run  \
+    -it \
     -p 8888:8888 \
     --network graphics_db_exercise \
     -v "${devprojects_workspace}":/home/jovyan/work \
@@ -56,11 +57,11 @@ docker run  \
     --name $docker_name \
     jupyter/datascience-notebook:latest
 
-if [ $? -eq 0 ];then
-    echo "${green}Docker $docker_name started${reset}"
-else
-    echo "${red}Docker $docker_name has failed starting${reset}"
-    echo "Review the logs here:"
-    echo "  ->   docker logs $docker_name"
-fi
+# if [ $? -eq 0 ];then
+#     echo "${green}Docker $docker_name started${reset}"
+# else
+#     echo "${red}Docker $docker_name has failed starting${reset}"
+#     echo "Review the logs here:"
+#     echo "  ->   docker logs $docker_name"
+# fi
 

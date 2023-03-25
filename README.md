@@ -43,6 +43,8 @@ Follow the steps described here.
 - Jupyter Notebook
 http://localhost:8888
 
+Password: mbduser
+
 - Mysql database
 localhost:6603
 

@@ -13,6 +13,15 @@ ${MBD_WORKSPACE}/tools/mysql_database/build_mysql_database/init_database_finance
 
 ```
 
+- Init the database schema
+
+```bash
+echo "Init schema on database: finance_db"
+
+${MBD_WORKSPACE}/tools/mysql_database/build_mysql_database/init_database_finance_schema.sh
+
+```
+
 
 ### Create conda environment on Jupyter notebook
 - Connect to Jupyter docker

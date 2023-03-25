@@ -15,5 +15,5 @@ echo "Initializating MYSQL database finance_db on ${docker_name} container for u
 
 cd  ${MBD_WORKSPACE}/tools/mysql_database/build_mysql_database
 
-docker exec -i $docker_name mysql -u root --password=my_password < init_database_finance_schema.sql
+docker exec -i $docker_name mysql -u root --password=my_password < init_database_schema.sql
 

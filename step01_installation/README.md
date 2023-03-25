@@ -1,16 +1,15 @@
 # MBD Graphics db exercise installation
+# STEP 01 - Installation
+
 Steps to be followed to create the insfrastructure for the MBD Graphics DB exercise
 
 
 ## Configure workspace
 
-Configure a new ENV VAR to set the local folder where the **graphics_db_exercise** will be installed:
-Change <LOCAL_FOLDER> with your local folder.
+- Requirements
 
-```bash
-export MBD_WORKSPACE="<LOCAL_FOLDER>"
-```
-# export MBD_WORKSPACE=/Users/bueka.torao/DevProjects/devprojects_workspace/graphics_db_exercise
+ENV VAR **MBD_WORKSPACE** must be created
+
 
 ## STEP 1 - Pulling images and create workspace
 
@@ -30,4 +29,26 @@ cd ${MBD_WORKSPACE}/step01_installation/
 
 ```bash
 ./02_start_containers.sh
+```
+
+- Start the Jupyter Notebook container
+
+Open a new terminal and connect to the server:
+
+```bash
+ssh mbduser@<IP_SERVER>
+```
+
+```bash
+
+```bash
+cd ${MBD_WORKSPACE}/step01_installation/
+```
+
+```bash
+cd ${MBD_WORKSPACE}/step01_installation/
+```
+
+```bash
+./02_start_jupyter_notebook.sh
 ```

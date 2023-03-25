@@ -25,10 +25,6 @@ echo "${blue}- ---------------------------------------------- -${reset}"
 echo "Start Neo4j container"
 ${MBD_WORKSPACE}/tools/neo4j_docker_deployment/run_neo4j.sh
 
-echo "${blue}- ---------------------------------------------- -${reset}"
-echo "Start Jupyter datascience notebook container"
-${MBD_WORKSPACE}/tools/jupyter_notebook_docker/run_jupyter_notebook_lab.sh
-
 
 echo "${blue}# ############################################## #${reset}"
 echo "${blue}# Containers started - Check that every app worked as expected. #${reset}"

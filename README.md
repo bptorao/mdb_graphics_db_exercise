@@ -17,6 +17,15 @@ The first step is to install the setup. Access the instalation folder and run th
 ./install_setup.sh
 ```
 
+- Test the setup is initialized. Run this command
+```bash
+echo $MBD_WORKSPACE
+
+source ~/.bashrc
+
+echo $MBD_WORKSPACE
+```
+
 ### Step 1
 
 Follow the steps described here

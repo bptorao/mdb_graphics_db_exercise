@@ -46,6 +46,7 @@ jupyter_config="${MBD_WORKSPACE}/setup/volumes/jupyter_config/jupyter_config"
 jupyter_local="${MBD_WORKSPACE}/setup/volumes/jupyter_config/jupyter_local"
 #-it
 
+
 docker run  \
     -p 8888:8888 \
     --network graphics_db_exercise \

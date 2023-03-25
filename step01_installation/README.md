@@ -40,12 +40,6 @@ ssh mbduser@<IP_SERVER>
 ```
 
 ```bash
-
-```bash
-cd ${MBD_WORKSPACE}/step01_installation/
-```
-
-```bash
 cd ${MBD_WORKSPACE}/step01_installation/
 ```
 

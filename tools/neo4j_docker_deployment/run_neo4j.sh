@@ -49,7 +49,7 @@ docker run \
     --publish=7474:7474 --publish=7687:7687 \
     --user="$(id -u):$(id -g)" \
     --env NEO4J_AUTH=neo4j/neo4j_test \
-    --env NEO4J_dbms_memory_pagecache_size=4G \
+    --env NEO4J_dbms_memory_pagecache_size=3G \
     --volume=$HOME_FOLDER/neo4j/data:/data \
     --volume=$HOME_FOLDER/neo4j/logs:/logs \
     --volume=$HOME_FOLDER/neo4j/conf:/conf \

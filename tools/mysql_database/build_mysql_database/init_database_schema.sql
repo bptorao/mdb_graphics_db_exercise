@@ -1,5 +1,7 @@
 -- SCRIPT DATABASE FINANCE
 
+-- database finance_db
+
 CREATE TABLE INDEXES_DATA (
     ID INT NOT NULL AUTO_INCREMENT,
     INDEX_NAME varchar(50),
@@ -44,7 +46,7 @@ CREATE TABLE COUNTRY_CONTINENTS(
     COUNTRY varchar(100),
     CONTINENT varchar(100),
     PRIMARY KEY (ID, COUNTRY)
-)
+);
 
 CREATE VIEW V_FINANCE_LAYOFFS AS 
     SELECT LD.*
@@ -67,27 +69,4 @@ CREATE VIEW V_FINANCE_LAYOFFS AS
         , ID.ONBOARDING_DATE ONBOARDING_DATE_INDEX
     FROM LAYOFF_DATA LD
     INNER JOIN INDEXES_DATA ID
-    ON LD.COMPANY_NAME = ID.COMPANY_NAME
-
-
-
-select *
-from LAYOFF_DATA
-where number_laid_off is not null
-
-
-
-select DISTINCT company_name
-    , country
-    , hq_location
-    , sector
-from LAYOFF_DATA
-where number_laid_off is not null
-
-
-
-select DISTINCT company_name
-    , country
-    , hq_location
-from LAYOFF_DATA
-where number_laid_off is not null
+    ON LD.COMPANY_NAME = ID.COMPANY_NAME;

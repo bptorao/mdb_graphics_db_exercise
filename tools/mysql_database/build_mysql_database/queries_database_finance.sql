@@ -7,6 +7,30 @@ from LAYOFF_DATA
 order by 2
 
 
+
+select *
+from LAYOFF_DATA
+where number_laid_off is not null
+
+
+
+select DISTINCT company_name
+    , country
+    , hq_location
+    , sector
+from LAYOFF_DATA
+where number_laid_off is not null
+
+
+
+select DISTINCT company_name
+    , country
+    , hq_location
+from LAYOFF_DATA
+where number_laid_off is not null
+
+
+
 -- QUERY: 
 
 select * from LAYOFF_DATA where country = 'Spain'

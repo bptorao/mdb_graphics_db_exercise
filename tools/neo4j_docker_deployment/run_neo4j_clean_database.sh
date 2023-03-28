@@ -1,5 +1,12 @@
 #!/bin/bash
 
+if [ -z "$MBD_WORKSPACE" ]; then
+    # Empty
+    echo "[ERROR] ENV VAR MBD_WORKSPACE cannot be empty"
+    exit
+fi
+
+source ${MBD_WORKSPACE}/setup/setup_lib/libraries.sh
 
 
 username=$(whoami)
@@ -31,7 +38,7 @@ echo "--------------------------------------------------------------------------
 
 echo "Deploying ${docker_name} container for user ${username}...."
 
-HOME_FOLDER="/Users/bueka.torao/DevProjects/neo4j_home_folder/"
+HOME_FOLDER="${MBD_WORKSPACE}/setup/volumes"
 rm -fR $HOME_FOLDER/neo4j/data
 rm -fR $HOME_FOLDER/neo4j/logs
 
@@ -51,10 +58,5 @@ docker run \
     --volume=$HOME_FOLDER/neo4j/import:/import \
     --name $docker_name \
     neo4j:5.4.0
-
-# --env NEO4J_server_jvm_additional="-Dcom.sun.management.jmxremote.authenticate=true -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.password.file=$HOME/conf/jmx.password -Dcom.sun.management.jmxremote.access.file=$HOME/conf/jmx.access -Dcom.sun.management.jmxremote.port=3637" \
-#        --restart always \
-#    --publish=7474:7474 --publish=7687:7687 \
-#    --env NEO4J_AUTH=none \
 
 

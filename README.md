@@ -59,30 +59,42 @@ Once you complete the installation and configuration steps you can access the to
 Here you have a list of the tools you started. Using the IP of the server you installed the tools, this is the URL you can use:
 
 - **Jupyter Notebook**
-http://<IP>:8888
+[http://IP:8888](http://localhost:8888)
 
-Password: mbduser
-
+Password:
+```
+mbduser
+```
 
 - **Mysql database**
-<IP>:6603
+[IP:6603](localhost:6603)
 
 - **PHPAdmin database browser**
-http://<IP>:8081
+[http://IP:8081](http://localhost:8081)
 
-username: finance
-password: finance
-
-
+username:
+```
+finance
+```
+password: 
+```
+finance
+```
 - **Neo4j database**
-Browser
-http://<IP>:7474
+Browser:
+[http://IP:7474](http://localhost:7474)
 
 Neo4j database
-http:<IP>:7687
+[http://IP:7687](http://localhost:7687)
 
-Username: neo4j
-Password: neo4j_test
+username:
+```
+neo4j
+```
+password: 
+```
+neo4j_test
+```
 
 
 ## Exercise - Data Processing
@@ -158,27 +170,4 @@ Extra: Exportar los datos a Google Data Studio y crear un dashboard de análisis
 
 # Troubleshooting
 
-### Error accessing a server from the terminal
-
-If you get an error like this:
-
-```bash
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
-Someone could be eavesdropping on you right now (man-in-the-middle attack)!
-It is also possible that a host key has just been changed.
-The fingerprint for the ECDSA key sent by the remote host is
-SHA256:sx1Z4xyGY9venBP6dIHAoBj0VhDOo7TUVCE2xWXpzQk.
-Please contact your system administrator.
-Add correct host key in /var/root/.ssh/known_hosts to get rid of this message.
-Offending ECDSA key in /var/root/.ssh/known_hosts:74
-ECDSA host key for 192.168.0.45 has changed and you have requested strict checking.
-Host key verification failed.
-```
-
-- Solution:
-```bash
-ssh-keygen -R IP
-```
+[Troubleshooting guide](https://github.com/bptorao/mdb_graphics_db_exercise/blob/main/Troubleshooting.md)

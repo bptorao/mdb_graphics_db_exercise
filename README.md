@@ -58,40 +58,40 @@ Once you complete the installation and configuration steps you can access the to
 
 Here you have a list of the tools you started. Using the IP of the server you installed the tools, this is the URL you can use:
 
-- **Jupyter Notebook**
+**Jupyter Notebook**
 [http://IP:8888](http://localhost:8888)
 
-Password:
+- Password:
 ```
 mbduser
 ```
 
-- **Mysql database**
+**Mysql database**
 [IP:6603](localhost:6603)
 
-- **PHPAdmin database browser**
+**PHPAdmin database browser**
 [http://IP:8081](http://localhost:8081)
 
-username:
+- username:
 ```
 finance
 ```
-password: 
+- password: 
 ```
 finance
 ```
-- **Neo4j database**
+**Neo4j database**
 Browser:
 [http://IP:7474](http://localhost:7474)
 
 Neo4j database
 [http://IP:7687](http://localhost:7687)
 
-username:
+- username:
 ```
 neo4j
 ```
-password: 
+- password: 
 ```
 neo4j_test
 ```

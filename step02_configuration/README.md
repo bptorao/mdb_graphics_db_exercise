@@ -56,3 +56,7 @@ pip install -r conda_tools/requirements.txt
 sudo chown neo4j:neo4j ${MBD_WORKSPACE}/setup/volumes/neo4j/conf
 
 ```
+
+
+- Once you complete the configuration steps, go back to the main guide.
+[MBD graphics exercise guide](https://github.com/bptorao/mdb_graphics_db_exercise/blob/main/README.md)

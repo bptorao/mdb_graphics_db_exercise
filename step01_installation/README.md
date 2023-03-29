@@ -46,3 +46,6 @@ cd ${MBD_WORKSPACE}/step01_installation/
 ```bash
 ./02_start_jupyter_notebook.sh
 ```
+
+- Once you complete the installation steps, go back to the main guide.
+[MBD graphics exercise guide](https://github.com/bptorao/mdb_graphics_db_exercise/blob/main/README.md)

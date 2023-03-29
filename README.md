@@ -58,7 +58,7 @@ Once you complete the installation and configuration steps you can access the to
 
 Here you have a list of the tools you started. Using the IP of the server you installed the tools, this is the URL you can use:
 
-**Jupyter Notebook**
+**1. Jupyter Notebook**
 [http://IP:8888](http://localhost:8888)
 
 - Password:
@@ -66,10 +66,7 @@ Here you have a list of the tools you started. Using the IP of the server you in
 mbduser
 ```
 
-**Mysql database**
-[IP:6603](localhost:6603)
-
-**PHPAdmin database browser**
+**2. PHPAdmin database browser**
 [http://IP:8081](http://localhost:8081)
 
 - username:
@@ -80,11 +77,31 @@ finance
 ```
 finance
 ```
-**Neo4j database**
-Browser:
+
+**3. Mysql database**
+Database connection parameter from Jupyter notebook
+```
+HOST = "mysql_database"
+PORT = "3306"
+USER = "finance"
+PASSWORD = "finance"
+DATABASE = "finance_db"
+```
+
+If you want to use the database from an external service, use this parameters:
+```
+HOST = "IP"
+PORT = "6603"
+USER = "finance"
+PASSWORD = "finance"
+DATABASE = "finance_db"
+```
+
+**3. Neo4j database**
+Neo4j Browser:
 [http://IP:7474](http://localhost:7474)
 
-Neo4j database
+Neo4j database (the browser will ask you to connect to this database)
 [http://IP:7687](http://localhost:7687)
 
 - username:
